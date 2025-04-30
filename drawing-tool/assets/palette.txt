@@ -1,0 +1,22 @@
+# This file defines the color palette for the drawing tool.
+# Each line represents a color in the format: name, hex value
+
+# Primary Colors
+red, #FF0000
+green, #00FF00
+blue, #0000FF
+
+# Secondary Colors
+cyan, #00FFFF
+magenta, #FF00FF
+yellow, #FFFF00
+
+# Neutral Colors
+black, #000000
+white, #FFFFFF
+gray, #808080
+
+# Additional Colors
+orange, #FFA500
+purple, #800080
+pink, #FFC0CB
