@@ -10,7 +10,7 @@ if (!ctx) {
 const imageData = ctx.createImageData(canvas.width, canvas.height);
 
 async function init() {
-    // WebAssembly モジュールをロード
+    // WebAssembly モジュールをロードする
     const wasmModule = await fetch("wasm/module.wasm")
         .then(response => response.arrayBuffer())
         .then(bytes => WebAssembly.instantiate(bytes));
